@@ -13,4 +13,5 @@ query = f"apikey=PUBLICKEY&nonce={now}"  #example of get balances
 apisign = Lib.hmac.new(secretKey.encode(),(url+"?"+query).encode(), hashlib.sha512).hexdigest()
 r = requests.get(url+"?"+query, headers = {"apisign": apisign})
 print(r.text)
-        
+
+#Donations for original project: 35o179Nd4ZbhVJcRkGAeBe2vMpFKFi4zr9 (bitcoin)
