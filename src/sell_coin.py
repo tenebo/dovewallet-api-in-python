@@ -3,7 +3,7 @@
 #
 # DOVEWALLET SELL COIN V_1
 # 
-# (c) www.sites.ga
+# (c) mynameispyo.github.io
 #
 # More Info https://blog.naver.com/the3countrys/221961774253
 #
